@@ -1,0 +1,19 @@
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Ferramentas
+node_modules/
+__pycache__/
+*.pyc
+
+# Mídia pesada em desenvolvimento local (não versionar)
+media/video_archive/*.mp4.tmp
+*.tmp
+
+# Configuração sensível — NUNCA commitar tokens/keys
+.env
+*.token
+gh_token.txt

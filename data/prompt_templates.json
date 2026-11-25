@@ -1,0 +1,31 @@
+{
+  "colorizacao_documental": {
+    "z_ai_image_edit": "Colorize this historical black-and-white documentary photograph with period-accurate, realistic colors: muted earth tones, weathered concrete and brick, overcast sky, natural skin tones preserved exactly as in the original. Keep the original composition, every person, object, building and detail unchanged. Documentary colorization only: do not add, remove or invent any element.",
+    "regras": [
+      "Nunca alterar rostos, roupas ou insígnias; cores period-accurate (tijolo, concreto, terra, céu nublado).",
+      "O resultado é reconstrução: marcar sempre 'Reconstrução colorida por IA' no vídeo/publicação.",
+      "Manter o original P&B intacto em media/raw/ e registrar derived_from."
+    ]
+  },
+  "restauracao_upscale": {
+    "objetivo": "limpeza de ruído/grão, correção de nitidez e brilho sem alterar conteúdo",
+    "parametros_ffmpeg": "hqdn3d=1.2:1.2:6:6, unsharp=5:5:0.6, normalização leve de contraste",
+    "saida": "media/restored/<ID>_restored.png + registro processing_stage=upscaled"
+  },
+  "geracao_cena_reconstrucao": {
+    "z_ai_image": "1944 documentary style photograph: {descricao_cena}. Grainy black-and-white film, period-accurate uniforms, historical architecture. Reconstruction of a documented historical scene, no real identifiable faces, dignified and factual composition.",
+    "regras": [
+      "Usar APENAS quando não existir foto de arquivo para o trecho narrado.",
+      "Rotular explicitamente como 'Reconstrução' no episódio.",
+      "Não gerar rostos identificáveis de vítimas reais nem cenas de violência explícita."
+    ]
+  },
+  "prompt_video_b_roll": {
+    "z_ai_video": "Slow documentary motion over archival photograph: {descricao}. Subtle Ken Burns zoom-in, no invented movement of people or objects. Historical black-and-white footage.",
+    "regras": ["Manter movimento mínimo e respeitoso; nada de zoom agressivo ou efeitos dramáticos gratuitos."]
+  },
+  "estilo_narracao_pt": {
+    "voz": "pt-BR-AntonioNeural (edge-tts), rate -15%, tom solene e documental",
+    "legenda": "DejaVu Sans 13, contorno 1.7, margin inferior 22, clamp anti-sobreposição +0.28s"
+  }
+}

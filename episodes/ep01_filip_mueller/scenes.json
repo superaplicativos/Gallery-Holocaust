@@ -1,0 +1,580 @@
+{
+  "episodio": "ep01_filip_mueller",
+  "fps": 24,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "titulo": "",
+      "kind": "card",
+      "duracao_s": 0,
+      "cue_ids": [],
+      "cues_text": [],
+      "subject_types": [
+        "archive_photo"
+      ],
+      "visual_tags": [
+        "histórica"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 2,
+      "titulo": "No dia 13 de abril de 1942, um transporte da Eslováquia chegava a Ausc...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        1,
+        2
+      ],
+      "cues_text": [
+        "No dia 13 de abril de 1942, um transporte da Eslováquia chegava a Auschwitz.",
+        "Entre os jovens arrancados dos vagões estava um judeu eslovaco: Filip Müller, vinte anos."
+      ],
+      "subject_types": [
+        "selection",
+        "deportation"
+      ],
+      "visual_tags": [
+        "rampa",
+        "deportação"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 3,
+      "titulo": "Nos anos seguintes, Müller veria o assassinato de centenas de milhares...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        3,
+        4,
+        5
+      ],
+      "cues_text": [
+        "Nos anos seguintes, Müller veria o assassinato de centenas de milhares de homens, mulheres e crianças.",
+        "Serviu quase três anos nos crematórios de Auschwitz-Birkenau, mais que quase todos os demais do Sonderkommando.",
+        "Esta é a história dele."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 4,
+      "titulo": "Filip Müller nasceu em 3 de janeiro de 1922, em Sereď, pequena cidade ...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        6,
+        7
+      ],
+      "cues_text": [
+        "Filip Müller nasceu em 3 de janeiro de 1922, em Sereď, pequena cidade da então Tchecoslováquia.",
+        "Cresceu em família judia, num mundo de certezas simples: lar, comunidade, uma vida comum."
+      ],
+      "subject_types": [
+        "archive_photo"
+      ],
+      "visual_tags": [
+        "pré-guerra"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 5,
+      "titulo": "Mas os anos 1930 trouxeram a escuridão. A Eslováquia virou um Estado a...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        8,
+        9
+      ],
+      "cues_text": [
+        "Mas os anos 1930 trouxeram a escuridão. A Eslováquia virou um Estado aliado da Alemanha nazista, sob o presidente Jozef Tiso.",
+        "Aprovou leis antissemitas, tirou os direitos dos judeus e concordou em deportá-los aos campos de extermínio."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "campo"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 6,
+      "titulo": "Em março de 1942, começaram as deportações. Jovens eram reunidos à for...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        10,
+        11
+      ],
+      "cues_text": [
+        "Em março de 1942, começaram as deportações. Jovens eram reunidos à força em campos como Sereď e Poprad.",
+        "Em abril de 1942, Müller foi posto em um dos primeiros transportes de judeus eslovacos para Auschwitz."
+      ],
+      "subject_types": [
+        "selection",
+        "deportation"
+      ],
+      "visual_tags": [
+        "rampa",
+        "deportação"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 7,
+      "titulo": "No campo principal, seu nome virou cinco dígitos: prisioneiro 29236, t...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        12
+      ],
+      "cues_text": [
+        "No campo principal, seu nome virou cinco dígitos: prisioneiro 29236, tatuado no antebraço esquerdo. Seria sua identidade por três anos."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "campo"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 8,
+      "titulo": "Um mês depois, guardas da SS o tiraram de sua equipe de trabalho, sem ...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        14,
+        15
+      ],
+      "cues_text": [
+        "Um mês depois, guardas da SS o tiraram de sua equipe de trabalho, sem explicação.",
+        "Foi designado para o Sonderkommando: prisioneiros forçados a operar a maquinaria do extermínio."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 9,
+      "titulo": "Seu primeiro destino: o Crematório Um, onde uma câmara de gás fora ins...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        16,
+        17
+      ],
+      "cues_text": [
+        "Seu primeiro destino: o Crematório Um, onde uma câmara de gás fora instalada num antigo necrotério.",
+        "No primeiro dia, a SS o espancou e o forçou a carregar corpos de desconhecidos aos fornos."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 10,
+      "titulo": "No verão de 1942, foi transferido para Monowitz, campo de trabalho for...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        18,
+        19
+      ],
+      "cues_text": [
+        "No verão de 1942, foi transferido para Monowitz, campo de trabalho forçado da química I.G. Farben.",
+        "Em meados de 1943, a morte atingiu escala industrial: Müller foi levado a Birkenau, onde quatro enormes crematórios operavam."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 11,
+      "titulo": "O trabalho acompanhava cada etapa. Nas salas de desvestir, o Sonderkom...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        20,
+        21
+      ],
+      "cues_text": [
+        "O trabalho acompanhava cada etapa. Nas salas de desvestir, o Sonderkommando acalmava os recém-chegados: diziam que esperavam um banho.",
+        "Depois as portas eram lacradas, e homens da SS lançavam o gás Zyklon B na câmara."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 12,
+      "titulo": "Quando tudo acabava, os prisioneiros entravam. Lavavam o piso, desemba...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        22,
+        23
+      ],
+      "cues_text": [
+        "Quando tudo acabava, os prisioneiros entravam. Lavavam o piso, desembaraçavam os corpos, carregavam-nos para os elevadores.",
+        "Cortavam os cabelos das mulheres e arrancavam dentes de ouro. Tudo era catalogado e enviado à Alemanha."
+      ],
+      "subject_types": [
+        "victims_group"
+      ],
+      "visual_tags": [
+        "vítimas"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 13,
+      "titulo": "Dia e noite, os fornos queimavam. E os trens não paravam de chegar. No...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        24,
+        25
+      ],
+      "cues_text": [
+        "Dia e noite, os fornos queimavam. E os trens não paravam de chegar.",
+        "No verão de 1944, as deportações da Hungria sobrecarregaram os crematórios. Corpos passaram a ser queimados em fossas abertas, sob o comando de Otto Moll."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 14,
+      "titulo": "Os ossos eram esmagados com marretas, misturados às cinzas e jogados n...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        26,
+        27
+      ],
+      "cues_text": [
+        "Os ossos eram esmagados com marretas, misturados às cinzas e jogados no rio Vístula.",
+        "Para enterrar o crime, a SS isolou o Sonderkommando do resto do campo. Contato significava a morte."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 15,
+      "titulo": "Ao mesmo tempo, a SS corrompia a unidade com comida extra, roupas e ob...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        28,
+        29
+      ],
+      "cues_text": [
+        "Ao mesmo tempo, a SS corrompia a unidade com comida extra, roupas e objetos tirados dos assassinados.",
+        "Era o que Primo Levi chamou de zona cinzenta. Sua lei: a cada poucos meses, uma nova unidade tomaria o lugar deles, e eles seriam mortos."
+      ],
+      "subject_types": [
+        "archive_photo"
+      ],
+      "visual_tags": [
+        "histórica"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 16,
+      "titulo": "Na primavera de 1944, a SS começou a liquidar o campo de famílias de B...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        30,
+        31
+      ],
+      "cues_text": [
+        "Na primavera de 1944, a SS começou a liquidar o campo de famílias de Birkenau: milhares de judeus de Theresienstadt.",
+        "Um dia, Müller reconheceu gente do seu transporte sendo levada à câmara do Crematório Dois. Em desespero, entrou com eles, para morrer."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 17,
+      "titulo": "Lá dentro, os condenados começaram a cantar: primeiro o hino tcheco, d...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        32,
+        33
+      ],
+      "cues_text": [
+        "Lá dentro, os condenados começaram a cantar: primeiro o hino tcheco, depois o hino judaico de esperança, Hatikvah.",
+        "Uma jovem se adiantou: Jana. Disse: sabemos que você quer morrer conosco. Mas seria em vão. Saia daqui e conte ao mundo o que acontece."
+      ],
+      "subject_types": [
+        "archive_photo"
+      ],
+      "visual_tags": [
+        "histórica"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 18,
+      "titulo": "As mulheres o empurraram para fora e apertaram na sua mão uma corrente...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        34,
+        35,
+        36
+      ],
+      "cues_text": [
+        "As mulheres o empurraram para fora e apertaram na sua mão uma corrente de ouro: uma mensagem dos moribundos aos vivos.",
+        "No corredor, o oficial Moll o esperava. Espancou-o e gritou: decidimos quando você morre, não você!",
+        "Müller desabou. Mas carregava um novo propósito: sobreviver, e testemunhar."
+      ],
+      "subject_types": [
+        "liberation"
+      ],
+      "visual_tags": [
+        "liberação"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 19,
+      "titulo": "Em 7 de outubro de 1944, o Sonderkommando se levantou contra a SS. Roz...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        37,
+        38
+      ],
+      "cues_text": [
+        "Em 7 de outubro de 1944, o Sonderkommando se levantou contra a SS.",
+        "Roza Robota, Ala Gertner, Ester Wajcblum e Regina Safirsztajn, da fábrica de munição, contrabandearam pólvora. Os rebeldes incendiaram o Crematório Quatro e romperam as cercas."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 27,
+      "titulo": "452 membros do Sonderkommando foram mortos naquele dia. Müller sobrevi...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        39
+      ],
+      "cues_text": [
+        "452 membros do Sonderkommando foram mortos naquele dia. Müller sobreviveu, escondido no crematório: a SS ainda precisava de homens para desmontar os locais da morte."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 20,
+      "titulo": "Em 18 de janeiro de 1945, com o Exército Vermelho próximo, a SS empurr...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        40,
+        41
+      ],
+      "cues_text": [
+        "Em 18 de janeiro de 1945, com o Exército Vermelho próximo, a SS empurrou mais de cinquenta mil prisioneiros para as marchas da morte.",
+        "Müller marchou no frio até Gliwice, foi enviado em vagões abertos para Mauthausen e, por fim, ao subcampo de Gunskirchen: faminto, devastado pelo tifo."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "campo"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 21,
+      "titulo": "Em 4 de maio de 1945, soldados da 71ª Divisão de Infantaria americana ...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        42
+      ],
+      "cues_text": [
+        "Em 4 de maio de 1945, soldados da 71ª Divisão de Infantaria americana libertaram Gunskirchen. Filip Müller tinha vinte e três anos: exausto, mas vivo."
+      ],
+      "subject_types": [
+        "liberation"
+      ],
+      "visual_tags": [
+        "liberação"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 22,
+      "titulo": "A recuperação levou anos. De um leito de hospital, deu o primeiro depo...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        43,
+        44
+      ],
+      "cues_text": [
+        "A recuperação levou anos. De um leito de hospital, deu o primeiro depoimento, no primeiro livro sobre Auschwitz: A Fábrica da Morte, 1946.",
+        "Em 1947, depôs ao Tribunal Nacional Supremo, em Cracóvia. Em outubro de 1964, foi testemunha-chave no Julgamento de Auschwitz, em Frankfurt."
+      ],
+      "subject_types": [
+        "archive_photo"
+      ],
+      "visual_tags": [
+        "histórica"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 23,
+      "titulo": "Em 1979, publicou suas memórias: Eyewitness Auschwitz, três anos nas c...",
+      "kind": "ai",
+      "duracao_s": 0,
+      "cue_ids": [
+        45,
+        46
+      ],
+      "cues_text": [
+        "Em 1979, publicou suas memórias: Eyewitness Auschwitz, três anos nas câmaras de gás. Um dos relatos mais detalhados dos crematórios já escritos.",
+        "Em 1985, Claude Lanzmann registrou seu depoimento para Shoah. Por horas, Müller descreveu como funcionava a maquinaria da morte."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 24,
+      "titulo": "Historiadores confrontaram suas palavras com plantas da SS, telegramas...",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        47,
+        48
+      ],
+      "cues_text": [
+        "Historiadores confrontaram suas palavras com plantas da SS, telegramas e registros do campo. O depoimento coincide com os documentos quase por inteiro.",
+        "Filip Müller morreu em 9 de novembro de 2013, em Mannheim, aos noventa e um anos. O homem que saiu da câmara de gás manteve a promessa a Jana: contou ao mundo."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 25,
+      "titulo": "Lembre-se do nome dele. E de todos os nomes por trás dos números.",
+      "kind": "real",
+      "duracao_s": 0,
+      "cue_ids": [
+        49
+      ],
+      "cues_text": [
+        "Lembre-se do nome dele. E de todos os nomes por trás dos números."
+      ],
+      "subject_types": [
+        "archive_photo"
+      ],
+      "visual_tags": [
+        "histórica"
+      ],
+      "movimento_camera": null
+    },
+    {
+      "scene_id": 26,
+      "titulo": "A história vive em Before the Number: Sonderkommando, de Guilen Marric...",
+      "kind": "end",
+      "duracao_s": 0,
+      "cue_ids": [
+        50,
+        51
+      ],
+      "cues_text": [
+        "A história vive em Before the Number: Sonderkommando, de Guilen Marrick — um romance baseado em fatos reais, homenagem a Filip Müller, prisioneiro 29236.",
+        "Disponível na Amazon. O link está abaixo deste vídeo. Leia a história. E nunca esqueça."
+      ],
+      "subject_types": [
+        "camp_site"
+      ],
+      "visual_tags": [
+        "sonderkommando",
+        "crematório"
+      ],
+      "movimento_camera": null
+    }
+  ]
+}

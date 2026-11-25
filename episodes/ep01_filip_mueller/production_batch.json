@@ -1,0 +1,1512 @@
+{
+  "episodio": "ep01_filip_mueller",
+  "cenas": [
+    {
+      "scene_id": 1,
+      "titulo": "",
+      "duracao_s": 0,
+      "cues": [],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000001",
+          "path": "media/raw/web/WEB_PH_000001.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000002",
+          "path": "media/raw/web/WEB_PH_000002.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000003",
+          "path": "media/raw/web/WEB_PH_000003.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000004",
+          "path": "media/raw/web/WEB_PH_000004.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000005",
+          "path": "media/raw/web/WEB_PH_000005.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "titulo": "No dia 13 de abril de 1942, um transporte da Eslováquia chegava a Ausc...",
+      "duracao_s": 0,
+      "cues": [
+        1,
+        2
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000002",
+          "path": "media/ai_colorized/AIGEN_PH_000002_color.jpg",
+          "title": "Jewish deportation cattle wagons 1942 (colorização IA)",
+          "year": "1942",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "AIGEN_PH_000003",
+          "path": "media/ai_colorized/AIGEN_PH_000003_color.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews (colorização IA)",
+          "year": "1944",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000017",
+          "path": "media/raw/web/WEB_PH_000017.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000018",
+          "path": "media/raw/web/WEB_PH_000018.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000019",
+          "path": "media/raw/web/WEB_PH_000019.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "titulo": "Nos anos seguintes, Müller veria o assassinato de centenas de milhares...",
+      "duracao_s": 0,
+      "cues": [
+        3,
+        4,
+        5
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "titulo": "Filip Müller nasceu em 3 de janeiro de 1922, em Sereď, pequena cidade ...",
+      "duracao_s": 0,
+      "cues": [
+        6,
+        7
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000001",
+          "path": "media/raw/web/WEB_PH_000001.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000002",
+          "path": "media/raw/web/WEB_PH_000002.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000003",
+          "path": "media/raw/web/WEB_PH_000003.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000004",
+          "path": "media/raw/web/WEB_PH_000004.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000005",
+          "path": "media/raw/web/WEB_PH_000005.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "titulo": "Mas os anos 1930 trouxeram a escuridão. A Eslováquia virou um Estado a...",
+      "duracao_s": 0,
+      "cues": [
+        8,
+        9
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "titulo": "Em março de 1942, começaram as deportações. Jovens eram reunidos à for...",
+      "duracao_s": 0,
+      "cues": [
+        10,
+        11
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000002",
+          "path": "media/ai_colorized/AIGEN_PH_000002_color.jpg",
+          "title": "Jewish deportation cattle wagons 1942 (colorização IA)",
+          "year": "1942",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "AIGEN_PH_000003",
+          "path": "media/ai_colorized/AIGEN_PH_000003_color.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews (colorização IA)",
+          "year": "1944",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000017",
+          "path": "media/raw/web/WEB_PH_000017.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000018",
+          "path": "media/raw/web/WEB_PH_000018.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000019",
+          "path": "media/raw/web/WEB_PH_000019.jpg",
+          "title": "Auschwitz Album Birkenau 1944 arrival Hungarian Jews",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 7,
+      "titulo": "No campo principal, seu nome virou cinco dígitos: prisioneiro 29236, t...",
+      "duracao_s": 0,
+      "cues": [
+        12
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 8,
+      "titulo": "Um mês depois, guardas da SS o tiraram de sua equipe de trabalho, sem ...",
+      "duracao_s": 0,
+      "cues": [
+        14,
+        15
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 9,
+      "titulo": "Seu primeiro destino: o Crematório Um, onde uma câmara de gás fora ins...",
+      "duracao_s": 0,
+      "cues": [
+        16,
+        17
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 10,
+      "titulo": "No verão de 1942, foi transferido para Monowitz, campo de trabalho for...",
+      "duracao_s": 0,
+      "cues": [
+        18,
+        19
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 11,
+      "titulo": "O trabalho acompanhava cada etapa. Nas salas de desvestir, o Sonderkom...",
+      "duracao_s": 0,
+      "cues": [
+        20,
+        21
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 12,
+      "titulo": "Quando tudo acabava, os prisioneiros entravam. Lavavam o piso, desemba...",
+      "duracao_s": 0,
+      "cues": [
+        22,
+        23
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000086",
+          "path": "media/raw/web/WEB_PH_000086.jpg",
+          "title": "Jewish children Holocaust victims historical",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000087",
+          "path": "media/raw/web/WEB_PH_000087.jpg",
+          "title": "Jewish children Holocaust victims historical",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000088",
+          "path": "media/raw/web/WEB_PH_000088.jpg",
+          "title": "Jewish children Holocaust victims historical",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000089",
+          "path": "media/raw/web/WEB_PH_000089.jpg",
+          "title": "Jewish children Holocaust victims historical",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000090",
+          "path": "media/raw/web/WEB_PH_000090.jpg",
+          "title": "Jewish children Holocaust victims historical",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 13,
+      "titulo": "Dia e noite, os fornos queimavam. E os trens não paravam de chegar. No...",
+      "duracao_s": 0,
+      "cues": [
+        24,
+        25
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 14,
+      "titulo": "Os ossos eram esmagados com marretas, misturados às cinzas e jogados n...",
+      "duracao_s": 0,
+      "cues": [
+        26,
+        27
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 15,
+      "titulo": "Ao mesmo tempo, a SS corrompia a unidade com comida extra, roupas e ob...",
+      "duracao_s": 0,
+      "cues": [
+        28,
+        29
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000001",
+          "path": "media/raw/web/WEB_PH_000001.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000002",
+          "path": "media/raw/web/WEB_PH_000002.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000003",
+          "path": "media/raw/web/WEB_PH_000003.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000004",
+          "path": "media/raw/web/WEB_PH_000004.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000005",
+          "path": "media/raw/web/WEB_PH_000005.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 16,
+      "titulo": "Na primavera de 1944, a SS começou a liquidar o campo de famílias de B...",
+      "duracao_s": 0,
+      "cues": [
+        30,
+        31
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 17,
+      "titulo": "Lá dentro, os condenados começaram a cantar: primeiro o hino tcheco, d...",
+      "duracao_s": 0,
+      "cues": [
+        32,
+        33
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000001",
+          "path": "media/raw/web/WEB_PH_000001.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000002",
+          "path": "media/raw/web/WEB_PH_000002.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000003",
+          "path": "media/raw/web/WEB_PH_000003.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000004",
+          "path": "media/raw/web/WEB_PH_000004.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000005",
+          "path": "media/raw/web/WEB_PH_000005.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 18,
+      "titulo": "As mulheres o empurraram para fora e apertaram na sua mão uma corrente...",
+      "duracao_s": 0,
+      "cues": [
+        34,
+        35,
+        36
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000063",
+          "path": "media/raw/web/WEB_PH_000063.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000064",
+          "path": "media/raw/web/WEB_PH_000064.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000065",
+          "path": "media/raw/web/WEB_PH_000065.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000066",
+          "path": "media/raw/web/WEB_PH_000066.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000067",
+          "path": "media/raw/web/WEB_PH_000067.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 19,
+      "titulo": "Em 7 de outubro de 1944, o Sonderkommando se levantou contra a SS. Roz...",
+      "duracao_s": 0,
+      "cues": [
+        37,
+        38
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 27,
+      "titulo": "452 membros do Sonderkommando foram mortos naquele dia. Müller sobrevi...",
+      "duracao_s": 0,
+      "cues": [
+        39
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 20,
+      "titulo": "Em 18 de janeiro de 1945, com o Exército Vermelho próximo, a SS empurr...",
+      "duracao_s": 0,
+      "cues": [
+        40,
+        41
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 21,
+      "titulo": "Em 4 de maio de 1945, soldados da 71ª Divisão de Infantaria americana ...",
+      "duracao_s": 0,
+      "cues": [
+        42
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000063",
+          "path": "media/raw/web/WEB_PH_000063.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000064",
+          "path": "media/raw/web/WEB_PH_000064.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000065",
+          "path": "media/raw/web/WEB_PH_000065.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000066",
+          "path": "media/raw/web/WEB_PH_000066.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000067",
+          "path": "media/raw/web/WEB_PH_000067.jpg",
+          "title": "Bergen-Belsen liberation 1945",
+          "year": "1945",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 22,
+      "titulo": "A recuperação levou anos. De um leito de hospital, deu o primeiro depo...",
+      "duracao_s": 0,
+      "cues": [
+        43,
+        44
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000001",
+          "path": "media/raw/web/WEB_PH_000001.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000002",
+          "path": "media/raw/web/WEB_PH_000002.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000003",
+          "path": "media/raw/web/WEB_PH_000003.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000004",
+          "path": "media/raw/web/WEB_PH_000004.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000005",
+          "path": "media/raw/web/WEB_PH_000005.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 23,
+      "titulo": "Em 1979, publicou suas memórias: Eyewitness Auschwitz, três anos nas c...",
+      "duracao_s": 0,
+      "cues": [
+        45,
+        46
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 24,
+      "titulo": "Historiadores confrontaram suas palavras com plantas da SS, telegramas...",
+      "duracao_s": 0,
+      "cues": [
+        47,
+        48
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 25,
+      "titulo": "Lembre-se do nome dele. E de todos os nomes por trás dos números.",
+      "duracao_s": 0,
+      "cues": [
+        49
+      ],
+      "media_sugerida": [
+        {
+          "id": "WEB_PH_000001",
+          "path": "media/raw/web/WEB_PH_000001.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000002",
+          "path": "media/raw/web/WEB_PH_000002.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000003",
+          "path": "media/raw/web/WEB_PH_000003.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000004",
+          "path": "media/raw/web/WEB_PH_000004.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000005",
+          "path": "media/raw/web/WEB_PH_000005.jpg",
+          "title": "Sonderkommando Auschwitzs 1944",
+          "year": "1944",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    },
+    {
+      "scene_id": 26,
+      "titulo": "A história vive em Before the Number: Sonderkommando, de Guilen Marric...",
+      "duracao_s": 0,
+      "cues": [
+        50,
+        51
+      ],
+      "media_sugerida": [
+        {
+          "id": "AIGEN_PH_000001",
+          "path": "media/ai_colorized/AIGEN_PH_000001_color.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic (colorização IA)",
+          "year": "unknown",
+          "processing_stage": "ai_colorized",
+          "colorizado": true,
+          "score": 3.3
+        },
+        {
+          "id": "WEB_PH_000025",
+          "path": "media/raw/web/WEB_PH_000025.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000026",
+          "path": "media/raw/web/WEB_PH_000026.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000027",
+          "path": "media/raw/web/WEB_PH_000027.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        },
+        {
+          "id": "WEB_PH_000028",
+          "path": "media/raw/web/WEB_PH_000028.jpg",
+          "title": "Auschwitz Arbeit macht frei gate historic",
+          "year": "unknown",
+          "processing_stage": "raw_original",
+          "colorizado": false,
+          "score": 2.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pipeline": "Gallery-Holocaust",
+  "versao": 1,
+  "idioma_producao": "pt-BR",
+  "regras_numericas": {
+    "max_arquivo_mb": 50,
+    "min_dimensao_px": 700,
+    "resolucao_video_alvo": "1920x1080",
+    "fps_alvo": 24,
+    "thumb_download_px": 1600
+  },
+  "naming": {
+    "padrao_id": "FONTE_TIPO_NUMERO",
+    "prefixos_fonte": ["COMMONS", "WEB", "IA", "AIGEN", "USHMM", "YAD", "AROL", "NARA", "IWM"],
+    "tipos": { "PH": "foto", "VID": "vídeo", "DOC": "documento", "REF": "referência institucional" },
+    "arquivo_foto": "PREFIXO_TIPO_NUMERO[.jpg|.png]",
+    "arquivo_video": "IA_VID_NUMERO.mp4"
+  },
+  "regras_etapas": {
+    "manter_original_intacto": true,
+    "descricao": "Restaurações e colorizações sempre em arquivo novo, nunca sobrescrever media/raw/. O registro derivado aponta derived_from para o ID original.",
+    "estagios": {
+      "raw_original": "imagem/filme bruto baixado da fonte",
+      "upscaled": "limpeza de ruído/nitidez aplicada em arquivo separado",
+      "colorized": "colorização manual ou semiautomática validada historicamente",
+      "ai_colorized": "colorização automática por IA - exige validação humana antes de uso público",
+      "ai_generated": "cena sintetizada por IA - usar apenas para reconstruções marcadas como reconstrução"
+    }
+  },
+  "regras_rigor_historico": {
+    "separar_fato_de_reconstrucao": true,
+    "texto_ou_marca_obrigatoria_em_ia": "Reconstrução colorida por IA — cores aproximadas",
+    "nao_inventar_detalhes_sensiveis": ["uniformes e insígnias", "fachadas de campos", "rostos de vítimas reais", "expressões faciais"],
+    "validar_com_referencia_quando_disponivel": true,
+    "dignidade_das_vitimas": "Evitar sensacionalismo e dramatizações artificiais; nunca gerar rostos plausíveis de vítimas identificadas; retratos de vítimas reais não devem ser colorizados automaticamente sem revisão especializada.",
+    "creditos": "Toda exibição pública deve creditar a fonte original quando identificada."
+  },
+  "regras_licenca": {
+    "uso_publico_exige": ["public_domain", "cc0", "cc_by", "cc_by_sa"],
+    "registro_com_review": ["license_review_needed", "institutional_archive_check"],
+    "bloquear_para_publico": "Registros com license_status em review não podem aparecer em vídeo publicado até revisão."
+  },
+  "fluxo_episodio": [
+    "1. Definir roteiro (episodes/epXX/script.md)",
+    "2. export_episode_batch.py -> lista de mídias candidatas por cena (cruza scenes.json com media_catalog.jsonl)",
+    "3. Triagem visual das candidatas (needs_triage)",
+    "4. Restauração/colorização se necessário (scripts colorize_ai.py) mantendo original",
+    "5. Render (pipeline do documentário: cards PIL + ffmpeg zoompan suave + narração TTS pt-BR)",
+    "6. Legendas a partir do SRT do episódio"
+  ],
+  "coleta": {
+    "ferramentas": ["scripts/fetch_commons_v4.py (Wikimedia Commons via PetScan)", "scripts/fetch_websearch.py (busca web via ZAI image search)", "scripts/colorize_ai.py (colorização IA)"],
+    "respeitar_rate_limit": "aguardar entre execuções; WMF bloqueia IP em excesso",
+    "registrar_tudo": "Nenhum arquivo entra em media/ sem registro em data/media_catalog.jsonl"
+  }
+}

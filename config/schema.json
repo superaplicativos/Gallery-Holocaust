@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gallery-Holocaust media catalog record",
+  "description": "Schema de um registro do acervo (data/media_catalog.jsonl). Cada linha do arquivo JSONL deve validar contra este schema.",
+  "type": "object",
+  "required": ["id", "title", "source_archive", "source_url", "license_status", "year", "location", "subject_type", "processing_stage", "local_path", "historical_notes", "visual_tags"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]+_[A-Z]+_[0-9]{6}$",
+      "description": "Identificador único no formato FONTE_TIPO_NUMERO (ex.: COMMONS_PH_000001, WEB_PH_000012, IA_VID_000001, AIGEN_PH_000001, USHMM_REF_000001)."
+    },
+    "title": { "type": "string", "minLength": 3, "maxLength": 300 },
+    "source_archive": {
+      "type": "string",
+      "enum": ["Wikimedia Commons", "Web (via ZAI image search)", "Internet Archive", "Internet Archive (Prelinger/NARA)", "AI colorization (Gallery-Holocaust pipeline)", "United States Holocaust Memorial Museum", "Yad Vashem (Jerusalém)", "Arolsen Archives", "US National Archives (NARA)", "Imperial War Museums (Reino Unido)"]
+    },
+    "source_url": { "type": "string", "format": "uri" },
+    "source_file_title": { "type": ["string", "null"], "description": "Título do arquivo na fonte original (Commons: File:...) para backfill de metadados." },
+    "source_site": { "type": ["string", "null"] },
+    "alternate_urls": { "type": "array", "items": { "type": "string" } },
+    "license_status": {
+      "type": "string",
+      "enum": ["public_domain", "cc0", "cc_by", "cc_by_sa", "institutional_archive_check", "license_review_needed"]
+    },
+    "license_name": { "type": ["string", "null"] },
+    "license_url": { "type": ["string", "null"] },
+    "year": {
+      "type": ["string", "null"],
+      "pattern": "^(1[5-9][0-9]{2}|20[0-4][0-9]|unknown|varios|pós-guerra)$"
+    },
+    "location": { "type": ["string", "null"] },
+    "subject_type": {
+      "type": "string",
+      "enum": ["victim_portrait", "victims_group", "camp_site", "selection", "deportation", "ghetto", "liberation", "memorial", "document", "map", "evidence_atrocity", "archival_film", "institutional_reference", "archive_photo"]
+    },
+    "linked_victims": { "type": "array", "items": { "type": "string" } },
+    "linked_events": { "type": "array", "items": { "type": "string" } },
+    "processing_stage": {
+      "type": "string",
+      "enum": ["raw_original", "upscaled", "colorized", "ai_colorized", "ai_generated", "remote_reference"],
+      "description": "raw_original = original intacto; upscaled/colorized = restaurado; ai_colorized/ai_generated = sintetizado por IA; remote_reference = fonte externa não baixada."
+    },
+    "local_path": { "type": ["string", "null"], "description": "Caminho relativo à raiz do repo. Obrigatório exceto quando processing_stage=remote_reference." },
+    "derived_from": { "type": ["string", "null"], "description": "ID do registro de origem (para colorizados/upscaled)." },
+    "tool": { "type": ["string", "null"] },
+    "colorization_prompt": { "type": ["string", "null"] },
+    "historical_notes": { "type": "string", "minLength": 10 },
+    "visual_tags": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "width": { "type": ["integer", "null"] },
+    "height": { "type": ["integer", "null"] },
+    "color_mode": { "type": ["string", "null"], "enum": ["bw_or_sepiatone", "color", "ai_colorized", null] },
+    "metadata_pending": { "type": "boolean", "description": "true = ano/licença pendentes de backfill na fonte (WMF)." },
+    "needs_triage": { "type": "boolean", "description": "true = exige triagem visual humana antes de uso." }
+  }
+}
