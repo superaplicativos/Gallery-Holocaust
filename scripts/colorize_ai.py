@@ -17,7 +17,7 @@ PROMPT = ("Colorize this historical black-and-white documentary photograph with 
           "remove or invent any element.")
 
 BUCKETS = ["camp_site", "deportation", "selection", "memorial", "ghetto", "liberation", "archive_photo"]
-PER_BUCKET = 3
+PER_BUCKET = 5
 TARGET_SIZE = "1344x768"
 
 def load_recs():
@@ -58,7 +58,7 @@ def main():
         if st in ("victim_portrait", "evidence_atrocity", "victims_group"): continue  # proteger dignidade
         if r["id"] in used_srcs: continue
         candidates.setdefault(st, []).append(r)
-    max_new = 14
+    max_new = 16
     added = 0
     counter = max([int(r["id"].split("_PH_")[1]) for r in recs if r["id"].startswith("AIGEN_PH_")] or [0]) + 1
     for st in BUCKETS:
