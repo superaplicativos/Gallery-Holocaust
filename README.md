@@ -25,6 +25,7 @@ Gallery-Holocaust/
 │   ├── export_episode_batch.py    <- cruza scenes.json com o catálogo -> production_batch.json
 │   ├── backfill_commons.py        <- completa ano/licença dos registros pendentes (WMF)
 │   ├── fetch_commons_v4.py        <- coleta no Wikimedia Commons (via PetScan + CDN)
+│   ├── fetch_commons_v5.py        <- coleta no Commons em fases (list/meta/download) + backoff Retry-After
 │   ├── fetch_websearch.py         <- coleta por busca web (ZAI image search)
 │   ├── colorize_ai.py             <- colorização IA (z-ai image-edit) com registro
 │   └── add_remote_records.py      <- registra fontes institucionais como remote_reference
@@ -68,11 +69,11 @@ Estados (`processing_stage`): `raw_original` (bruto), `upscaled` (restaurado),
 | Fonte | Registros | Observação |
 |---|---|---|
 | Web (busca de imagens, 14 queries temáticas) | 107 fotos | `needs_triage`: validar fonte/licença antes de uso público |
-| Colorização IA | 5 | reconstrução de cores, origem registrada em `derived_from` |
+| Colorização IA | 19 | reconstrução de cores, origem registrada em `derived_from` |
 | Internet Archive (filmes PD) | 2 (remote) | *Nazi Concentration Camps* (1945) e *Death Mills* (1945) |
 | USHMM / Yad Vashem / Arolsen / NARA / IWM | 5 (remote) | acervos institucionais para coleta futura |
 
-Total: ~120 registros · ~48 MB de mídia local · licenças a revisar: ver `LICENSES.md`.
+Total: 133 registros · ~48 MB de mídia local · licenças a revisar: ver `LICENSES.md`.
 
 ## Como usar no pipeline do documentário
 
@@ -117,9 +118,16 @@ suave + narração edge-tts `pt-BR-AntonioNeural` + legendas) consome
   Wikipédia EN (metadados, resolve arquivos do Commons) e CDN
   (`Special:FilePath`) para download — com backoff. Registros com
   `metadata_pending: true` recebem ano/licença por `backfill_commons.py`.
-- Filmes de liberação (domínio público) estão catalogados como
-  `remote_reference` com URLs para download no Internet Archive e no Commons
-  (`File:Nazi Concentration Camps.webm`, `File:Death Mills (1945).webm`).
+- **Filmes de liberação PD encontrados no Commons** (prontos para download quando
+  o CDN liberar; cortar trechos com `ffmpeg -ss <inicio> -t <dur> -i <URL>` sem
+  baixar o arquivo completo):
+  - `File:Death Mills (1945).webm` — Billy Wilder, 113 MB, PD
+  - `File:Auschwitz (Ozwiecim) Reel 1 (1945).webm` — 328 MB, PD
+  - `File:Auschwitz (Ozwiecim) Reel 2 (1945).webm` — 424 MB, PD
+  - `File:Nazi Concentration Camps.webm` — relatório Ewell, PD
+- O rate limit do Wikimedia pode devolver `429` com `Retry-After: 600`
+  (10 minutos por requisição bloqueada). Em sessões limitadas, usar
+  `fetch_commons_v5.py` (fases `list` → `meta` → `download`, resumível).
 
 ## Licença do repositório
 
