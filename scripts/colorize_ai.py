@@ -5,7 +5,7 @@ como processing_stage=ai_colorized com derived_from e prompt de colorização do
 Resumível: pula registros já colorizados."""
 import json, os, subprocess, sys
 
-ROOT = "/home/z/my-project/Gallery-Holocaust"
+ROOT = "/home/z/my-project/gallery_repo"
 CATALOG = os.path.join(ROOT, "data", "media_catalog.jsonl")
 OUT = os.path.join(ROOT, "media", "ai_colorized")
 os.makedirs(OUT, exist_ok=True)
@@ -16,8 +16,8 @@ PROMPT = ("Colorize this historical black-and-white documentary photograph with 
           "person, object, building and detail unchanged. Documentary colorization only: do not add, "
           "remove or invent any element.")
 
-BUCKETS = ["camp_site", "deportation", "selection", "memorial", "camp_site", "ghetto"]
-PER_BUCKET = 1
+BUCKETS = ["camp_site", "deportation", "selection", "memorial", "ghetto", "liberation", "archive_photo"]
+PER_BUCKET = 3
 TARGET_SIZE = "1344x768"
 
 def load_recs():
@@ -47,7 +47,7 @@ def main():
     recs = load_recs()
     colored_ids = {r.get("derived_from") for r in recs if r.get("processing_stage") == "ai_colorized"}
     # candidatas: raw_original locais, buckets variados, boa resolução
-    buckets_done = {r["subject_type"] for r in recs if r.get("processing_stage") == "ai_colorized"}
+    used_srcs = {r.get("derived_from") for r in recs if r.get("processing_stage") == "ai_colorized"}
     candidates = {}
     for r in recs:
         if r.get("processing_stage") != "raw_original": continue
@@ -56,14 +56,13 @@ def main():
         if (r.get("width") or 0) < 750: continue
         st = r.get("subject_type")
         if st in ("victim_portrait", "evidence_atrocity", "victims_group"): continue  # proteger dignidade
-        if st in buckets_done: continue
+        if r["id"] in used_srcs: continue
         candidates.setdefault(st, []).append(r)
-    max_new = 6
+    max_new = 14
     added = 0
     counter = max([int(r["id"].split("_PH_")[1]) for r in recs if r["id"].startswith("AIGEN_PH_")] or [0]) + 1
     for st in BUCKETS:
         if added >= max_new: break
-        if st in buckets_done: continue
         cands = candidates.get(st, [])
         if not cands: continue
         src_rec = cands[0]
@@ -97,7 +96,7 @@ def main():
             "color_mode": "ai_colorized",
         }
         recs.append(rec)
-        buckets_done.add(st)
+        candidates[st].pop(0)
         added += 1
         save_recs(recs)
     print(f"\nOK: {added} colorizações | total catálogo: {len(recs)}")

@@ -4,7 +4,7 @@
 download via CDN upload.wikimedia.org (fallback Special:FilePath). Resumível."""
 import json, os, re, sys, time, hashlib, urllib.parse, urllib.request
 
-ROOT = "/home/z/my-project/Gallery-Holocaust"
+ROOT = "/home/z/my-project/gallery_repo"
 OUT_DIR = os.path.join(ROOT, "media", "raw", "commons")
 CATALOG = os.path.join(ROOT, "data", "media_catalog.jsonl")
 EN_API = "https://en.wikipedia.org/w/api.php"
@@ -37,18 +37,19 @@ CATEGORIES = [
 PER_CAT = 55
 
 def petscan_titles(cat):
-    params = {"language": "commons", "project": "wikimedia", "categories": cat,
-              "depth": "0", "doit": "1", "format": "json"}
-    url = "https://petscan.wmcloud.org/?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=150) as r:
-        d = json.load(r)
-    rs = (d.get("*") or [{}])[0].get("a", {}).get("*", [])
-    out = []
-    for x in rs:
-        if x.get("namespace") == 6 and x.get("title"):
-            out.append("File:" + x["title"])
-    return out[:PER_CAT]
+    """Listagem via API nativa do Commons (categorymembers, ns=6) — substitui PetScan (bloqueado)."""
+    titles, cont = [], None
+    while len(titles) < PER_CAT:
+        params = {"action": "query", "list": "categorymembers",
+                  "cmtitle": f"Category:{cat}", "cmnamespace": "6",
+                  "cmlimit": "200", "format": "json"}
+        if cont: params["cmcontinue"] = cont
+        d = json.loads(http_get("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)))
+        for m in d.get("query", {}).get("categorymembers", []):
+            if m.get("title"): titles.append(m["title"])
+        cont = d.get("continue", {}).get("cmcontinue")
+        if not cont: break
+    return titles[:PER_CAT]
 
 def strip_html(s):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).replace("&amp;", "&").strip()
