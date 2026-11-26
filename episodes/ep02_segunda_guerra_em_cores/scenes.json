@@ -1,0 +1,620 @@
+{
+ "episode": "ep02_segunda_guerra_em_cores",
+ "title": "SEGUNDA GUERRA EM CORES | Fotos Raras Coloridas por IA",
+ "fps": 30,
+ "total_s": 691.8666666666667,
+ "words": 1314,
+ "scenes": [
+  {
+   "id": 1,
+   "kind": "card",
+   "media": [
+    "media/ai_colorized/title_card_epi2.png"
+   ],
+   "frames": 480,
+   "dur": 16.0,
+   "start": 0.0,
+   "cues": []
+  },
+  {
+   "id": 2,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000001_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000001_color.jpg"
+   ],
+   "frames": 699,
+   "dur": 23.3,
+   "start": 16.0,
+   "cues": [
+    {
+     "id": 1,
+     "t0": 16.0,
+     "t1": 38.190917,
+     "text": "O que você está vendo agora nasceu em preto e branco. Fotografias guardadas por setenta, oitenta anos em arquivos — algumas escondidas por décadas, outras quase esquecidas — restauradas e coloridas uma a uma, para voltarem a respirar. E o que elas revelam é mais perto do que você imagina."
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000009_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000009_color.jpg"
+   ],
+   "frames": 599,
+   "dur": 19.966666666666665,
+   "start": 39.3,
+   "cues": [
+    {
+     "id": 2,
+     "t0": 39.3,
+     "t1": 58.178792,
+     "text": "Esta criança teve um nome. Tinha pais, tinha casa, tinha um mundo. Neste documentário, você vai atravessar a Segunda Guerra Mundial como nunca viu: a história real, fotografada por quem esteve lá, e colorida imagem por imagem."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000005_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000005_color.jpg"
+   ],
+   "frames": 718,
+   "dur": 23.933333333333334,
+   "start": 59.266666666666666,
+   "cues": [
+    {
+     "id": 3,
+     "t0": 59.266666666666666,
+     "t1": 82.10566666666666,
+     "text": "1939. A Alemanha nazista invade a Polônia, e o mundo mergulha na maior guerra da história. Cinco anos que vão reescrever as fronteiras da Europa — e sobre os territórios ocupados, desce um novo vocabulário do terror: guetos, trens, deportações, e uma tecnologia de morte jamais vista."
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000002_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000002_color.jpg"
+   ],
+   "frames": 780,
+   "dur": 26.0,
+   "start": 83.2,
+   "cues": [
+    {
+     "id": 4,
+     "t0": 83.2,
+     "t1": 108.115875,
+     "text": "Em Varsóvia, quase meio milhão de judeus é amontoado atrás de muros: uma cidade dentro da cidade, faminta, doente, cercada. Cada família que você vê aqui carrega a mesma conta: casa tomada, loja confiscada, futuro suspenso. Mas dentro desses muros nasce algo que os nazistas jamais esperaram — resistência."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000017_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000017_color.jpg"
+   ],
+   "frames": 770,
+   "dur": 25.666666666666668,
+   "start": 109.2,
+   "cues": [
+    {
+     "id": 5,
+     "t0": 109.2,
+     "t1": 133.752208,
+     "text": "Abril de 1943: o levante do gueto de Varsóvia explode. Jovens judeus armados enfrentam as SS por quase um mês, rua por rua. O comandante alemão Jürgen Stroop documenta a repressão num relatório macabro, cheio de fotos e números — e imagens como estas preservam exatamente o que ele queria apagar."
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000024_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000024_color.jpg"
+   ],
+   "frames": 668,
+   "dur": 22.266666666666666,
+   "start": 134.86666666666667,
+   "cues": [
+    {
+     "id": 6,
+     "t0": 134.86666666666667,
+     "t1": 156.02337466666668,
+     "text": "Casa por casa, o gueto é queimado e reduzido a escombros. Dezenas de milhares de sobreviventes são deportados para o extermínio. Mas o levante entra para a história como o primeiro levante urbano em massa da Europa ocupada — e a mensagem que deixou às gerações seguintes: resistir era possível."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000014_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000014_color.jpg"
+   ],
+   "frames": 758,
+   "dur": 25.266666666666666,
+   "start": 157.13333333333333,
+   "cues": [
+    {
+     "id": 7,
+     "t0": 157.13333333333333,
+     "t1": 181.29408333333333,
+     "text": "1942: a chamada Solução Final opera em pleno vapor. Trens de carga partem de todos os cantos da Europa ocupada — França, Holanda, Hungria, Grécia — para os campos de extermínio no leste. Vagões de gado como este, sem água, sem ventilação, com famílias inteiras amontoadas a bordo."
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000033_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000033_color.jpg"
+   ],
+   "frames": 696,
+   "dur": 23.2,
+   "start": 182.39999999999998,
+   "cues": [
+    {
+     "id": 8,
+     "t0": 182.39999999999998,
+     "t1": 204.51349999999996,
+     "text": "Seis milhões de judeus serão assassinados no Holocausto — um terço de todo o judaísmo europeu. O que resta desses milhões são listas escritas à mão, registros, horários de trem, nomes em papel — como estes. Uma burocracia fria a serviço de uma matança que queria parecer invisível."
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000003_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000003_color.jpg"
+   ],
+   "frames": 676,
+   "dur": 22.533333333333335,
+   "start": 205.59999999999997,
+   "cues": [
+    {
+     "id": 9,
+     "t0": 205.59999999999997,
+     "t1": 227.03704199999996,
+     "text": "Maio de 1944. Esta rampa em Birkenau é um dos raríssimos lugares do Holocausto fotografado enquanto acontecia. Judeus húngaros chegam de trem — às vezes, vinte mil pessoas em um único dia. E a maioria deles ainda não sabe o que é uma câmara de gás."
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000008_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000008_color.jpg"
+   ],
+   "frames": 678,
+   "dur": 22.6,
+   "start": 228.1333333333333,
+   "cues": [
+    {
+     "id": 10,
+     "t0": 228.1333333333333,
+     "t1": 249.6307913333333,
+     "text": "Aqui, na plataforma, a SS aponta o dedo: para um lado, o trabalho forçado; para o outro, as câmaras de gás. A maioria das mulheres, das crianças e dos idosos não tem mais de algumas horas pela frente. Sobrevive, geralmente, apenas quem pode trabalhar."
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000029_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000029_color.jpg"
+   ],
+   "frames": 648,
+   "dur": 21.6,
+   "start": 250.7333333333333,
+   "cues": [
+    {
+     "id": 11,
+     "t0": 250.7333333333333,
+     "t1": 271.2305003333333,
+     "text": "Quem fotografou estas cenas? Um membro da SS, em seguida. As imagens, encontradas depois da guerra, viram o chamado Álbum de Auschwitz — um dos documentos mais importantes que existem sobre o genocídio, com os rostos de quem chegava e nunca mais seria visto."
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000022_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000022_color.jpg"
+   ],
+   "frames": 662,
+   "dur": 22.066666666666666,
+   "start": 272.3333333333333,
+   "cues": [
+    {
+     "id": 12,
+     "t0": 272.3333333333333,
+     "t1": 293.31250033333333,
+     "text": "Atrás destas cercas funcionava uma cidade do terror: quarenta e quatro blocos, um milhão de homens, mulheres e crianças passando por Auschwitz entre 1940 e 1945 — o maior cemitério do mundo, sem um único túmulo. É aqui que a nossa história começa de verdade."
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000006_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000006_color.jpg"
+   ],
+   "frames": 415,
+   "dur": 13.833333333333334,
+   "start": 294.4,
+   "cues": [
+    {
+     "id": 13,
+     "t0": 294.4,
+     "t1": 307.145042,
+     "text": "Arame farpado, torres de vigia, barracões dimensionados para milhares. Um complexo pensado para segurar mundos inteiros dentro de uma cerca de um metro e meio de altura."
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000010_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000010_color.jpg"
+   ],
+   "frames": 624,
+   "dur": 20.8,
+   "start": 308.2333333333333,
+   "cues": [
+    {
+     "id": 14,
+     "t0": 308.2333333333333,
+     "t1": 327.9216663333333,
+     "text": "E esta é uma vista do complexo de Auschwitz III — Monowitz, o campo erguido ao lado da fábrica da I.G. Farben, onde prisioneiros trabalhavam como mão de obra escrava da indústria de guerra. Os bombardeios aliados chegam a poucos metros do extermínio — que nunca para."
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000012_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000012_color.jpg"
+   ],
+   "frames": 882,
+   "dur": 29.4,
+   "start": 329.0333333333333,
+   "cues": [
+    {
+     "id": 15,
+     "t0": 329.0333333333333,
+     "t1": 357.3341253333333,
+     "text": "Dentro de Birkenau, o setor chamado Canadá acumulava os pertences dos assassinados: roupas, malas, cadeirinhas, tudo triado para ser enviado à Alemanha. E ao lado deste pesadelo, outro, mais íntimo: o Sonderkommando — prisioneiros forçados a operar as câmaras de gás e os crematórios. Filip Müller, um de seus membros, sobreviveu para contar tudo."
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000005_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000005_color.jpg"
+   ],
+   "frames": 1056,
+   "dur": 35.2,
+   "start": 358.4333333333333,
+   "cues": [
+    {
+     "id": 16,
+     "t0": 358.4333333333333,
+     "t1": 392.5377913333333,
+     "text": "Em sete de outubro de 1944, eles se revoltam: destroem o Crematório IV e enfrentam as SS com o que tiverem nas mãos. Quase todos morrem. Mas a revolta do Sonderkommando é a única revolta aberta na história de Auschwitz — e os destroços ainda estavam lá, quando a neve chegou. E dentro de Auschwitz, guardar memória era um ato de coragem: papéis escondidos, testemunhos enterrados junto às cinzas — para que o mundo soubesse."
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000002_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000002_color.jpg"
+   ],
+   "frames": 640,
+   "dur": 21.333333333333332,
+   "start": 393.63333333333327,
+   "cues": [
+    {
+     "id": 17,
+     "t0": 393.63333333333327,
+     "t1": 413.8776253333333,
+     "text": "Depois da seleção, as malas ficavam para trás. Para cada pessoa, um número; para cada número, uma prancha de madeira. Roupas, óculos, fotos de família: tudo era catalogado e enviado à Alemanha — até o nome escrito na madeira virava mercadoria."
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000008_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000008_color.jpg"
+   ],
+   "frames": 601,
+   "dur": 20.033333333333335,
+   "start": 414.9666666666666,
+   "cues": [
+    {
+     "id": 18,
+     "t0": 414.9666666666666,
+     "t1": 433.9119996666666,
+     "text": "Quando os soldados soviéticos chegaram, encontraram sete toneladas de cabelo humano nos depósitos do campo — embalado em sacos como estes, prontos para serem vendidos. Neste tecido, ainda hoje, há um nome, uma mãe, uma manhã qualquer antes da guerra."
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000007_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000007_color.jpg"
+   ],
+   "frames": 766,
+   "dur": 25.533333333333335,
+   "start": 434.99999999999994,
+   "cues": [
+    {
+     "id": 19,
+     "t0": 434.99999999999994,
+     "t1": 459.42604199999994,
+     "text": "27 de janeiro de 1945. Com a frente russa a poucos quilômetros, os nazistas evacuam e queimam tudo o que podem. À tarde, o Exército Vermelho abre os portões de Auschwitz: cerca de sete mil sobreviventes — entre eles, crianças nascidas dentro do campo — encontram o mundo outra vez."
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000011_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000011_color.jpg"
+   ],
+   "frames": 565,
+   "dur": 18.833333333333332,
+   "start": 460.5333333333333,
+   "cues": [
+    {
+     "id": 20,
+     "t0": 460.5333333333333,
+     "t1": 478.2692503333333,
+     "text": "Em abril de 1945, o Exército britânico entra em Bergen-Belsen e encontra dez mil corpos sem sepultura e sessenta mil vivos à beira do colapso. A guerra na Europa terminaria em dias — a fome e as epidemias, não."
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000003_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000003_color.jpg"
+   ],
+   "frames": 563,
+   "dur": 18.766666666666666,
+   "start": 479.3666666666666,
+   "cues": [
+    {
+     "id": 21,
+     "t0": 479.3666666666666,
+     "t1": 497.02358366666664,
+     "text": "Fevereiro de 1945: um médico soviético examina sobreviventes em Auschwitz. Tifo, cólera, desnutrição: nos campos recém-liberados, salvar vidas era reconstruir o impossível, todos os dias."
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000001_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000001_color.jpg"
+   ],
+   "frames": 422,
+   "dur": 14.066666666666666,
+   "start": 498.13333333333327,
+   "cues": [
+    {
+     "id": 22,
+     "t0": 498.13333333333327,
+     "t1": 511.09333333333325,
+     "text": "Crianças saem das barracas para o frio de janeiro, na Polônia. Elas são a minoria dos que sobrevivem — e o retrato mais duro daquilo que a guerra fez com quem menos tinha a ver com ela."
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/USERAIGEN_PH_000004_color.jpg",
+    "media/ai_colorized/USERAIGEN_PH_000004_color.jpg"
+   ],
+   "frames": 475,
+   "dur": 15.833333333333334,
+   "start": 512.1999999999999,
+   "cues": [
+    {
+     "id": 23,
+     "t0": 512.1999999999999,
+     "t1": 526.9394169999999,
+     "text": "Sobreviventes acamados em barracões improvisados: cidades inteiras arrasadas, famílias desaparecidas, fronteiras incertas. A pergunta de todos era a mesma: para onde vamos agora?"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000018_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000018_color.jpg"
+   ],
+   "frames": 693,
+   "dur": 23.1,
+   "start": 528.0333333333333,
+   "cues": [
+    {
+     "id": 24,
+     "t0": 528.0333333333333,
+     "t1": 550.0183333333333,
+     "text": "Para muitas mulheres e meninas, a liberdade chegou sem casa, sem família, sem país — a guerra, para elas, não acabou em maio de 1945. Milhões de deslocados vagariam pela Europa: campos de refugiados, buscas infinitas, cartazes com nomes colados em muros."
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000025_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000025_color.jpg"
+   ],
+   "frames": 578,
+   "dur": 19.266666666666666,
+   "start": 551.1333333333333,
+   "cues": [
+    {
+     "id": 25,
+     "t0": 551.1333333333333,
+     "t1": 569.3150003333333,
+     "text": "A cura não seria só física. Nos meses seguintes, milhares morrem de doenças que a libertação não trouxe junto. A paz chegou antes da esperança — e a esperança precisou ser construída pessoa por pessoa, num copo de água de cada vez."
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000004_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000004_color.jpg"
+   ],
+   "frames": 611,
+   "dur": 20.366666666666667,
+   "start": 570.4,
+   "cues": [
+    {
+     "id": 26,
+     "t0": 570.4,
+     "t1": 589.656833,
+     "text": "Hoje, memoriais em toda a Europa guardam esta memória — em Berlim, em Varsóvia, em Birkenau. Os trilhos ainda terminam ali, no lugar onde terminava tudo. A neve, a grama, o silêncio: uma paisagem que nunca deveria ter existido."
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000023_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000023_color.jpg"
+   ],
+   "frames": 495,
+   "dur": 16.5,
+   "start": 590.7666666666667,
+   "cues": [
+    {
+     "id": 27,
+     "t0": 590.7666666666667,
+     "t1": 606.1637916666666,
+     "text": "Um milhão de pessoas morreu em Auschwitz. Não como estatística: como indivíduos. Nomes, rostos, vozes — alguns registrados em pouquíssimas fotos, como as que você está vendo."
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000019_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000019_color.jpg"
+   ],
+   "frames": 489,
+   "dur": 16.3,
+   "start": 607.2666666666667,
+   "cues": [
+    {
+     "id": 28,
+     "t0": 607.2666666666667,
+     "t1": 622.4572496666666,
+     "text": "E entre os que morreram, um milhão e meio de crianças. Por isso cada retrato, cada grupo como este, é um tesouro: são os rostos que o mundo quase perdeu — e a prova de que nada disso é abstrato."
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000001_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000001_color.jpg"
+   ],
+   "frames": 527,
+   "dur": 17.566666666666666,
+   "start": 623.5666666666666,
+   "cues": [
+    {
+     "id": 29,
+     "t0": 623.5666666666666,
+     "t1": 640.0216666666666,
+     "text": "Por que colorir imagens de guerra? Porque o preto e branco, às vezes, permite que olhemos de longe. A cor nos aproxima: céu real, madeira real, pessoas reais — perto demais para virar número."
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000009_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000009_color.jpg"
+   ],
+   "frames": 540,
+   "dur": 18.0,
+   "start": 641.1333333333333,
+   "cues": [
+    {
+     "id": 30,
+     "t0": 641.1333333333333,
+     "t1": 658.0427503333333,
+     "text": "Cada cor que você viu aqui é uma reconstrução digital — um esforço de tecnologia e memória, feito com respeito e referências históricas. O que a inteligência artificial acrescenta é proximidade; o que ela não pode inventar é a verdade."
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "kind": "scene",
+   "media": [
+    "media/raw/web/AIGEN_PH_000030_color.jpg",
+    "media/ai_colorized/AIGEN_PH_000030_color.jpg"
+   ],
+   "frames": 502,
+   "dur": 16.733333333333334,
+   "start": 659.1333333333333,
+   "cues": [
+    {
+     "id": 31,
+     "t0": 659.1333333333333,
+     "t1": 674.7718333333333,
+     "text": "Se você chegou até aqui: inscreva-se no canal e ative o sininho para os próximos episódios desta série. Compartilhe este documentário com quem precisa lembrar. Esta memória sobrevive enquanto houver quem a conte."
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "kind": "end",
+   "media": [
+    "media/ai_colorized/end_card_epi2.png"
+   ],
+   "frames": 480,
+   "dur": 16.0,
+   "start": 675.8666666666667,
+   "cues": []
+  }
+ ]
+}
